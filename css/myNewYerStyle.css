@@ -48,6 +48,12 @@
     margin-bottom: 130px;
 }
 
+.my_failures_image{
+    background-color: rgba(241, 91, 34, .2);
+    border-radius: 50%;
+}
+
+
 .my_failures_content{
     text-align: left;
     padding-top: 240px;
@@ -68,7 +74,6 @@
     margin-bottom: 16px;
 }
 .my_failures_list{
-    /* list-style-image: url("../images/icons/check-mark.png"); */
     list-style-type: none;
     font-weight: 400;
     font-size: 16px;
