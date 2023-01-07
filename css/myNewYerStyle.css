@@ -2,3 +2,49 @@
     margin: 0;
 }
 
+.header{
+    background-image: url("../images/banner/banner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 809px;
+    margin-bottom: 130px;
+}
+
+.banner_content{
+    text-align: right;    
+    padding: 216px 230px 167px 845px;
+}
+
+.banner_content_title{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.banner_content_description{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 32px;
+}
+.primary_banner_btn{
+    width: 160px;
+    height: 64px;
+    background: #F15B22;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 21px 26px;
+
+}
+.my_failures{
+    display: flex;
+    margin-left: 206px;
+    margin-right: 322px;
+}
+
+
