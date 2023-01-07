@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .header{
@@ -16,14 +17,12 @@
 }
 
 .banner_content_title{
-    font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 65px;
     color: #151414;
     margin-bottom: 24px;
 }
 .banner_content_description{
-    font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #444343;
@@ -43,8 +42,38 @@
 }
 .my_failures{
     display: flex;
+    gap: 87px;
     margin-left: 206px;
     margin-right: 322px;
+}
+
+.my_failures_content{
+    text-align: left;
+
+}
+
+.my_failures_title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+    padding-right: 80px;
+}
+
+.my_failures_description{
+    font-weight: 400px;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.my_failures_list{
+    /* list-style-image: url("../images/icons/check-mark.png"); */
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin: 0;
+    padding-left: 0;
 }
 
 
